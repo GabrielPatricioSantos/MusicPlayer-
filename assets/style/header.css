@@ -1,0 +1,18 @@
+
+.barra_titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    font-family: var(--fonte);
+    color: var(--branco);
+    padding-top: 1em;
+}
+
+.foto_player {
+    width: 3em;
+    padding: 0.5em;
+    border: 2px solid green;
+    background-color: green;
+    border-radius: 5em;
+}

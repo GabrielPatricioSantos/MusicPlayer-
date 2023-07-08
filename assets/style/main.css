@@ -1,0 +1,60 @@
+.mostrador_musica {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 5px solid var(--fundo);
+    padding: 2em;
+    position: absolute;
+    top: 1;
+    margin-top: 25px;
+    margin-left: 36%;   
+    border-radius: 10px; 
+    box-shadow: 4px 4px 3em 5px;
+}
+
+.foto_musica {
+    width: 500px;
+    box-shadow: 0px 7px 20px 5px rgb(11, 11, 11);
+}
+
+.texto_musica {
+    font-family: var(--fonte);
+    color: var(--branco);
+}
+
+.botoes_musica {
+    display: flex;
+    gap: 1.3em;
+    background-color: transparent;
+    height: 3em;
+}
+
+.botoes {
+    background-color: var(--branco);
+    border: none;
+    border-radius: 4em;
+    transition: 0.3s;
+    padding: 5px;
+    width: 50px;
+}
+
+.botoes:hover {
+     background-color: green;
+}
+
+
+.temporizador_musica {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.barra_tempo_musica {
+    
+    width: 20vw;
+    background-color: green;
+}
+

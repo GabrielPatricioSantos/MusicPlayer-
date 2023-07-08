@@ -1,0 +1,22 @@
+@import url(assets/style/aside.css);
+@import url(assets/style/header.css);
+@import url(assets/style/main.css);
+@import url(assets/style/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Montserrat:wght@100&family=Quicksand&family=Roboto+Mono:ital,wght@1,300&family=Wix+Madefor+Display&display=swap');
+
+
+:root {
+    --fundo:  #232526;
+    --fonte:  'Wix Madefor Display', sans-serif;
+    --preto: #0000;
+    --branco: #fff;
+}
+
+body {
+    background-color: var(--fundo);
+    
+}
+
+
+
+

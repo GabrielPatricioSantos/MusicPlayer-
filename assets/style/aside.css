@@ -1,0 +1,17 @@
+.barra_lateral {
+    display: flex;
+    flex-direction: column; 
+    gap: 1em;
+    background-color: green;
+}
+
+.item_barra_lateral {
+    display: flex;
+    flex-direction: row;
+}
+
+.icone_barra_lateral {
+    display: flex;
+    background-color: green;
+}
+
